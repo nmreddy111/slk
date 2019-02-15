@@ -1,0 +1,9 @@
+function SuccessAlert(Title, Message) {
+            toastr.success(Message, Title)
+        }
+        function WarningAlert(Title, Message) {
+            toastr.warning(Message, Title)
+        }
+        function DangerAlert(Title, Message) {
+            toastr.error(Message, Title)
+        }  
